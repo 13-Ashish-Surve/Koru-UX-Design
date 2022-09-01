@@ -5,100 +5,14 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
 /* 
-main {
-    background-image: url('./pexels-pixabay-220201.jpg');
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-} */
-
-/*
-#hamburger {
-    fill: black;
-    height: 38px;
-    width: 38px;
-    margin: 10px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 5;
-    cursor: pointer;
-}
-
-#sidebarmenu {
-    height: 100vh;
-    width: 0px;
-    background-color: rgb(247, 247, 247);
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    overflow: hidden;
-    transition: width 0.5s ease;
-    white-space: nowrap;
-}
-
-.menu-item {
-    text-decoration: none;
-    color: black;
-    display: block;
-    padding: 3px;
-    align-items: center;
-    cursor: pointer;
-}
-
-#menu-sidemenu-1{
-    margin-top: 40px;
-}
-
-.menu-item > div{
-    padding: 5px;
-}
-
-
-
-#overlay{
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0,0,0,0.2);
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    display: none;
-}
-
-*/
-
-
-
-
-
-/* 
-.container {
-    max-width: 100%;
-    width: 100%;
-    margin: auto;
-}
-
-.navbar-1 {
-    width: 100%;
-    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
-    background-color: blueviolet;
-} */
-
-
-
 .slider-button {
     padding-right: 0;
     align-items: flex-end;
     right: 0;
     
-}
-
+} */
+ 
 .nav-container-1 {
     display: block;
     justify-content: space-between;
@@ -107,6 +21,7 @@ main {
     width: fit-content;
     right: 0;
     top: 10;
+    
 }
 
 .navbar-1 .menu-items {
@@ -115,7 +30,7 @@ main {
 }
 
 #sidebarmenu{
-    z-index: 1;
+    /* z-index: 1; */
     position: relative;
     background-color: white;
     height: 100vh;
@@ -150,10 +65,13 @@ ul li:before {
 
 .navbar-1 .nav-container-1 li {
     list-style: none;
+    width: fit-content;
+
 }
 
 .navbar-1 .nav-container-1 a {
     text-decoration: none;
+    width: 90px;
     color: #0e2431;
     font-weight: 500;
     font-size:18px;
@@ -165,7 +83,6 @@ ul li:before {
     display: block;
     position: absolute;
     height: 60px;
-    z-index: 15px;
 }
 
 .nav-container-1 .checkbox {
