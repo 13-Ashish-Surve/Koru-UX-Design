@@ -73,7 +73,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 0.7s;
+    transition: all 0.5s;
+    z-index: 3;
 }
 
 .nav-item-4 {
@@ -122,11 +123,6 @@ body {
 
 
 /* --------slidebar css------ */
-/* 
-.slider-button {
-    padding-right: 0px;
-    align-items: flex-end;
-} */
 
 /* Industries link */
 a:link {
@@ -268,12 +264,6 @@ h3.gb-headline-21 {
     padding: 0 0 0 0;
     margin: 0 0 0 0;
 }
-
-/* .award-images{
-    align-items: center;
-    padding: 10px;
-    background-color: aqua;
-} */
 
 .photos {
     text-align: center;
